@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+	<meta name="description" content="At Aptitude Physical Therapy, we take time to teach our patients 
+	and answer questions about each patient's personal diagnosis and customized treatment plan. We 
+	keep current on relevant research and are committed to solving our patients' pain problems.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="images/FavIcon.jpg">
+	<title>Aptitude Physical Therapy</title>
+
+	<!--  CSS -->
+
+	<!-- Boostrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Font Awesome CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Custom CSS -->
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+	<!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+	<!--===================================================-->
+	<!--================     NAVBAR     ===================-->
+	<!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div>
+
+	<!--===================================================-->
+	<!--================     BODYBOX     ==================-->
+	<!--===================================================-->
+	<div class="container" id="main">
+		<div class="row col-12">
+			<!-- Visible on small devices only.-->
+			<div class="well well-small visible-sm">
+				<a href="tel:417-890-7787 " class="btn btn-large btn-block btn-default"><i class = "fa fa-phone fa-lg"></i><span class="glyphicon glypicon-phone"> Call Us</span></a>
+			</div><!-- end well-small -->
+		</div><!-- end row, col-12-->
+
+		<div class= "row col-12 video_banner">
+			<iframe width="99%" height="450" align="center" src="https://www.youtube.com/embed/syc9Sw65Zwg" frameborder="0" allowfullscreen></iframe>
+		</div><!--end iframe -->
+
+		<div class="row col-12" id="homequote">
+			<p><i class = "fa fa-quote-left fa-lg pull-left"></i> 
+			My greatest desire has been to have every patient leave saying, </br>'I had no idea that much could be done!'
+			<i class = "fa fa-quote-right fa-lg pull-right"></i></p>
+			<address>-<strong> Kelly Coleman PT, DPT, OCS, GCS </strong>
+			</br>
+			Board Certified Clinical Specialist in Orthopaedic Physical Therapy </br> Board Certified Clinical Specialist in Geriatric Physical Therapy</address>
+		</div><!--end homequote-->
+	</div><!-- end container, main-->
+
+
+	<div class="full-width color-primary-3">
+			<div class="container">
+			<div class="col-sm-4" id="weListen"><!--<div class = "threeCol">-->
+				<h2><strong>We Listen</strong></h2>
+				<p>Aptitude Physical Therapy in Springfield, Missouri, provides patient-centered treatment that begins with listening to what the patient has to say. After listening, we take the time to ask and answer questions to fully understand the patient's needs.</p>
+			</div><!--end col-sm-4 -->
+
+			<div class="col-sm-4" id="weSolve"><!--<div class = "threeCol">-->
+				<h2><strong>We Solve</strong></h2>
+				<p>At Aptitude Physical Therapy, physical therapists work as problem solvers for their patients. Since every patient and injury is unique, our physical therapists will take the time to analyze the patient's symptoms and customize a treatment plan.</p>
+			</div><!--end col-sm-4 -->
+
+			<div class="col-sm-4" id="weTeach">
+				<h2><strong>We Teach</strong></h2>
+				<p>Our physical therapists share a commitment to continuing education and supporting research. Learning and then teaching is a lifestyle. They take time to teach patients about their personal diagnosis and customized treatment plans.</p>
+			</div><!--end col-small-4 -->
+		</div><!--End container-->
+	</div><!-- End full-width -->
+
+	<div class="container">
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-3">
+			<a type="button" class="btn btn-info" href="contact.html"><i class="fa fa-phone fa-2x"></i> &nbsp; Make an Appointment</a>
+		</div>
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-3">
+			<a type="button" class="btn btn-default" href="reviews.html"><i class="fa fa-comments fa-2x"></i> &nbsp;Read Reviews</a>
+		</div>
+		<div class="col-sm-2">
+		</div>
+	</div><!--End container-->
+
+	<!--===================================================-->
+	<!--================     FOOTER     ===================-->
+	<!--===================================================-->
+	<!--Also loads the javascript for Bootstrap JS-->
+	<div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>

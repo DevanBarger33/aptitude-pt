@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+	<meta name="description" content="Aptitude Physical Therapy's Site Map">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="images/FavIcon.jpg">	
+	<title>APT Site Map</title>
+
+	<!-- CSS -->
+
+	<!-- Boostrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Font Awesome CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!--Custom CSS -->
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+	<!--===================================================-->
+	<!--================     NAVBAR     ===================-->
+	<!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div>
+
+	<!--===================================================-->
+	<!--================     BODYBOX     ==================-->
+	<!--===================================================-->
+	<div class="container">
+		<h1>Aptitude Physical Therapy Site Map</h1>
+
+		<div class="col-sm-6">
+			<h2>Pages <small> (15 Total Pages)</small></h2>
+
+			<p><a href="index.html" title="APT Home">Home</a></p>
+			<p><a href="about.html" title="About Us">About Us</a></p>
+			<p><a href="staff.html" title="APT Staff">Our Staff</a></p>
+			<p><a href="reviews.html" title="Reviews about APT">Reviews</a></p>
+			<p><a href="videos.html" title="APT Videos">APT Videos</a></p>
+			<p><a href="faq.html" title="FAQ at APT">FAQ</a></p>
+				<ul>
+					<li><a href="insurance_questions.html" title="Insurance FAQ">Insurance FAQ</a></li>
+					<li><a href="treatment_questions.html" title="Treatment FAQ">Treatment FAQ</a></li>
+					<li><a href="appointment_questions.html" title="Appointment FAQ">Appointment FAQ</a></li>
+				</ul>
+			<p><a href="newpatient.html" title="New Patient at APT">New Patient at APT</a></p>
+			<p><a href="careers.html" title="Careers at APT">Careers at APT</a></p>
+			<p><a href="http://www.aptitudephysicaltherapy.com/student.html" title="Students at APT">Students at APT</a></p>
+			<p><a href="http://www.aptitudephysicaltherapy.com/blog.html" title="APT Blog">APT Blog</a></p>
+			<p><a href="http://www.aptitudephysicaltherapy.com/contact.html" title="Contact APT">Contact APT</a></p>
+		</div><!--end col-sm-6-->
+
+		<div class="col-sm-6">
+			<h2>Forms</h2>
+			<ul>
+				<li><a href="http://www.aptitudephysicaltherapy.com/acrobat/prf.pdf" title="APT Patient Registration Form">Patient Registration Form</a></li>
+				<li><a href="file:///E:/src/aptitudeptweb/acrobat/msf.pdf" title="APT Medical Screening Form"target="_blank">Medical Screening Form</a></li>
+				<li><a href="http://www.aptitudephysicaltherapy.com/acrobat/shadowform.pdf" title="APT Shadowing Form">Shadow Form</a></li>
+			</ul>
+		</div><!--end col-sm-6-->
+
+		<div class="col-12 pull-right">
+			<p>Last updated: June 6, 2016</p>
+		</div>
+	</div><!--End container-->
+
+
+	<!--===================================================-->
+	<!--================     FOOTER     ===================-->
+	<!--===================================================-->
+	<!--Also loads the javascript for Bootstrap JS-->
+	<div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>

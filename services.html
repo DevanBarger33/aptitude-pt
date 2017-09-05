@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+	<meta name="description" content="Read descriptions of our services and treatments at Aptitude Physical Therapy.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="images/FavIcon.jpg">
+	<title>APT Services</title>
+
+ 	<!-- CSS -->
+	
+	<!-- Boostrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Font Awesome CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!--Custom CSS -->
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+  <!--===================================================-->
+  <!--================     NAVBAR     ===================-->
+  <!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div>
+
+  <!--===================================================-->
+  <!--================     BODYBOX     ==================-->
+  <!--===================================================-->
+  <div class="container">
+  	<h1> Services & Treatment </h1>
+  	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">	
+  			
+		<!--=========-->
+		<!--  Q&A #1 -->
+		<!--=========-->
+
+		<div class="panel panel-default">
+			<!--Q1 -->
+   			<div class="panel-heading" role="tab" id="headingOne">
+      			<h4 class="panel-title">
+        			<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         			Health Insurance Consultation
+        			</a>
+      			</h4>
+    		</div><!--END Q1-->
+
+			<!--A1-->
+			<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+      			<div class="panel-body">
+        		<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.</h5>
+      			</div><!--END panel-body -->
+			</div><!--END A1-->
+		</div><!-- End Q&A #1 -->
+		
+		<!--=========-->
+		<!--  Q&A #2 -->
+		<!--=========-->
+
+		<div class="panel panel-default">
+			<!--Q2-->
+			<div class="panel-heading" role="tab" id="headingTwo">
+				<h4 class="panel-title">
+        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         			Pain
+        			</a>
+      			</h4>
+ 			</div><!--END Q2-->
+
+  		<!--A2-->
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.</h5>
+        </div><!--END panel-body -->
+      </div><!--END A2-->
+    </div><!-- End Q&A #2 -->
+
+    <!--=========-->
+    <!--  Q&A #3 -->
+    <!--=========--> 
+
+    <div class="panel panel-default">
+      <!--Q3-->
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Scoliosis
+          </a>
+        </h4>
+      </div><!--END Q3-->
+
+      <!--A3-->
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.</h5>
+        </div><!--END panel-body-->
+      </div><!--END A3-->
+    </div><!--END Q&A #3-->
+
+    <!--=========-->
+    <!--  Q&A #4 -->
+    <!--=========-->
+
+      <div class="panel panel-default">
+        <!--Q4-->
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Dizziness and Vestibular Rehab
+            </a>
+          </h4>
+        </div><!--END Q4-->
+
+        <!--A4-->
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+            <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A4-->
+      </div><!--END Q&A #4-->
+
+    <!--=========-->
+    <!--  Q&A #5 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q5-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Neck Pain
+            </a>
+          </h4>
+        </div><!--END Q5-->
+
+        <!--A5-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A5-->
+      </div><!--END Q&A #5-->
+
+    <!--=========-->
+    <!--  Q&A #6 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q6-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Back Pain
+            </a>
+          </h4>
+        </div><!--END Q6-->
+
+        <!--A6-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A6-->
+      </div><!--END Q&A #6-->
+
+    <!--=========-->
+    <!--  Q&A #7 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q7-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Rib Pain
+            </a>
+          </h4>
+        </div><!--END Q7-->
+
+        <!--A7-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A7-->
+      </div><!--END Q&A #7-->
+
+    <!--=========-->
+    <!--  Q&A #8 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q8-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Athletic injuries/prevention
+            </a>
+          </h4>
+        </div><!--END Q8-->
+
+        <!--A8-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A8-->
+      </div><!--END Q&A #8-->
+
+    <!--=========-->
+    <!--  Q&A #9 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q9-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Fall Prevention
+            </a>
+          </h4>
+        </div><!--END Q9-->
+
+        <!--A9-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A9-->
+      </div><!--END Q&A #9-->
+
+    <!--=========-->
+    <!--  Q&A #10 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q10-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Chronic Pain
+            </a>
+          </h4>
+        </div><!--END Q10-->
+
+        <!--A10-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A10-->
+      </div><!--END Q&A #10-->
+
+    <!--=========-->
+    <!--  Q&A #11 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q11-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">TMJ/TMD Rehab
+            </a>
+          </h4>
+        </div><!--END Q11-->
+
+        <!--A11-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A11-->
+      </div><!--END Q&A #11-->
+
+    <!--=========-->
+    <!--  Q&A #12 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q12-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Post-op Rehab
+            </a>
+          </h4>
+        </div><!--END Q12-->
+
+        <!--A12-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A12-->
+      </div><!--END Q&A #12-->
+
+    <!--=========-->
+    <!--  Q&A #13 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q13-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Stroke Rehab
+            </a>
+          </h4>
+        </div><!--END Q13-->
+
+        <!--A13-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A13-->
+      </div><!--END Q&A #13-->
+
+    <!--=========-->
+    <!--  Q&A #14 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q14-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Nerve Pain/ Chronic Regional Pain Syndrome
+            </a>
+          </h4>
+        </div><!--END Q14-->
+
+        <!--A14-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A14-->
+      </div><!--END Q&A #14-->
+
+    <!--=========-->
+    <!--  Q&A #15 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q15-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Arthritis
+            </a>
+          </h4>
+        </div><!--END Q15-->
+
+        <!--A15-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A15-->
+      </div><!--END Q&A #15-->
+
+    <!--=========-->
+    <!--  Q&A #16 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q16-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Sports Enhancement
+            </a>
+          </h4>
+        </div><!--END Q16-->
+
+        <!--A16-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A16-->
+      </div><!--END Q&A #16-->
+
+    <!--=========-->
+    <!--  Q&A #17 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q17-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Optimal Aging Screening
+            </a>
+          </h4>
+        </div><!--END Q17-->
+
+        <!--A17-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A17-->
+      </div><!--END Q&A #17-->
+
+    <!--=========-->
+    <!--  Q&A #17 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q17-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Work Injuries/Rehab
+            </a>
+          </h4>
+        </div><!--END Q17-->
+
+        <!--A17-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+             <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin malesuada elementum. Nunc arcu elit, accumsan sit amet feugiat sit amet, facilisis at tortor. Sed enim dolor, pretium vitae nisl quis, condimentum tempor augue. Praesent id dolor quis lacus laoreet eleifend laoreet non massa. Aenean cursus sit amet ipsum ac congue. Nullam nec neque sit amet velit consectetur ullamcorper eu ut eros. Sed euismod consectetur orci. Integer pulvinar dui urna, vel mollis nunc tempor vitae. Nullam lacinia porttitor odio imperdiet mattis. Nulla facilisi. Donec commodo ipsum augue, in dignissim lacus lacinia nec. Mauris gravida blandit ipsum, nec mattis augue condimentum rhoncus. Aliquam consectetur molestie dolor id semper. Nulla tristique ac dui vitae laoreet.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A17-->
+      </div><!--END Q&A #17-->
+
+  </div><!--END panel group-->  
+   
+  <div class="col-12">
+    <p><a href="testimonials.html"><i class="fa fa-comment"></i> Read</a> what people are saying about Aptitude Physical Therapy, LLC.</p>
+  </div><!--end col-12 -->
+  
+
+
+  <div class="row col-sm-12" id="disclaimer">
+    <h3 class="text-center"> Disclaimer </h3>
+      <h5>
+        This information is provided as a general information resource only. You should never delay seeking medical advice, disregard medical advice, or discontinue medical treatment because of this general information. Please see your doctor or medical advice and treatment. Do not rely on this information for any diagnosis or treatment. If you have
+        any specific questions about any medical matter, you should consult your doctor or other professional healthcare provider. If you think you may be suffering from any medical condition, you should contact your healthcare provider immediately.</h5>
+  </div><!-- end disclaimer-->
+</div><!-- end container-->
+  <!--===================================================-->
+  <!--================     FOOTER     ===================-->
+  <!--===================================================-->
+  <!--Also loads the javascript for Bootstrap JS-->
+  <div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>

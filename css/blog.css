@@ -1,0 +1,17 @@
+.blogfooter{
+		background-color: 	#e8e8e8;
+		padding:			.5em;
+		margin-bottom: 		2em;
+}
+.date{
+	display: 		inline;
+	font-size: 		12px;
+	font-style: 	italic;
+	vertical-align: text-top;
+}
+
+h3 {	
+	padding: .25em;
+	color: 	#191970;
+	text-align: center;
+}

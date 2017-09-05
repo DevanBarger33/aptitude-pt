@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+  <!--Two methods to redirect page to videos.html-->
+ 	<meta http-equiv="refresh" content="0;url=http://www.aptitudept.com/reviews.html">
+    <script type="text/javascript">
+        window.location.href = "http://www.aptitudept.com/reviews.html"
+    </script>
+  <!--end redirection-->
+    
+	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+	<meta name="description" content="Read what others are saying about Aptitude Physical Therapy. 
+	Patients have written reviews about their results, and colleagues comment on working with both Kelly and Terry.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="images/FavIcon.jpg">
+	<title>Comments about APT</title>
+
+  <!-- CSS -->
+
+	<!-- Boostrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Font Awesome CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!--Custom CSS -->
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+  <!--===================================================-->
+  <!--================     NAVBAR     ===================-->
+  <!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div> 
+
+  <!--===================================================-->
+  <!--================     BODYBOX     ==================-->
+  <!--===================================================-->
+	<div class="container">
+		<h2> Redirect Page to Reviews about APT</h2>
+        <!--If redirecting failed, give a message with a link to the proper page.-->
+		<p>If you are not redirected automatically, follow the link to <a href='http://www.aptitudept.com/reviews.html'> reviews about APT</a>.</p>
+	</div><!--contaner-->
+
+  <!--===================================================-->
+  <!--================     FOOTER     ===================-->
+  <!--===================================================-->
+  <!--Also loads the javascript for Bootstrap JS-->
+  <div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>
