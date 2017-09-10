@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="aptitude-app">
+<!doctype html>
+<html lang="en" ng-app="apt-app">
 <head>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
-	<meta name="description" content="At Aptitude Physical Therapy, we take time to teach our patients 
-	and answer questions about each patient's personal diagnosis and customized treatment plan. We 
-	keep current on relevant research and are committed to solving our patients' pain problems.">
+	<meta charset="utf-8">
+	<title>AptitudeApp</title>
+	<base href="/">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="shortcut icon" href="images/FavIcon.jpg">
-	<title>Aptitude Physical Therapy</title>
-
-	<!--  CSS -->
-
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- Boostrap CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -20,15 +15,10 @@
 	<!--Font Awesome CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-	<!--Custom CSS -->
-	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
-	<!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
 </head>
 
 <body>
-	<!--===================================================-->
+  	<!--===================================================-->
 	<!--================     NAVBAR     ===================-->
 	<!--===================================================-->
 	<div ng-controller="aptController">
@@ -102,7 +92,8 @@
 	<div ng-controller="aptController">
 		<div  ng-include="footer"></div>
 	</div>
+
+	<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+	<script src="js/APTApp.js"></script>
 </body>
-<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
-<script src="js/APTApp.js"></script>
 </html>

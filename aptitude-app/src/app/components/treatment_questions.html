@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+	<meta name="description" content="We want to answer your questions about treatment. Read Aptitude 
+	Physical Therapy’s answers to commonly asked treatment questions.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="images/FavIcon.jpg">
+	<title>Treatment FAQ</title>
+
+
+  <!-- CSS -->
+
+	<!-- Boostrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Font Awesome CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!--Custom CSS -->
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+  <!--===================================================-->
+  <!--================     NAVBAR     ===================-->
+  <!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div>
+
+  <!--===================================================-->
+  <!--================     BODYBOX     ==================-->
+  <!--===================================================-->
+  <div class="container">
+	 <div class="row col-12">
+        <!-- Visible on small devices only.-->
+        <div class="well well-small visible-sm">
+          <a href="tel:417-890-7787" class="btn btn-large btn-block btn-default"><i class = "fa fa-phone fa-lg"></i><span class="glyphicon glypicon-phone"> Give us a call!</span></a>
+        </div><!-- end well-small -->
+      </div><!-- end row, col-12-->
+
+<!--====================================-->
+<!--       TREATMENT QUESTIONS          -->
+<!--====================================-->
+	<h1>Treatment Questions</h1>
+
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+		<!--=========-->
+		<!--  Q&A #1 -->
+		<!--=========-->
+				
+		<div class="panel panel-default">
+			<!--Q1 -->
+			<div class="panel-heading" role="tab" id="headingOne">
+				<h4 class="panel-title">
+  				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+  				Are the rooms private?
+  				</a>
+				</h4>
+			</div><!--END Q1-->
+
+			<!--A1-->
+			<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+				<div class="panel-body">
+				We have private rooms with solid wood doors for physical therapy evaluations. The exercise area is open in the center of our clinic. If you are working in the exercise area, we still do everything we can to make you feel like you're in a private workout area.
+				</div><!--END panel-body -->
+			</div><!--END A1-->
+		</div><!-- End Q&A #1 -->
+
+		<!--=========-->
+		<!--  Q&A #2 -->
+		<!--=========-->
+
+		<div class="panel panel-default">
+			<!--Q2-->
+			<div class="panel-heading" role="tab" id="headingTwo">
+      	<h4 class="panel-title">
+        		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         		What types of injuries or conditions do you treat?
+        		</a>
+      		</h4>
+      </div><!--END Q2-->
+
+  			<!--A2-->
+			<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+      	<div class="panel-body">
+    		Aptitude Physical Therapy have years of experience treating a wide variety of injuries and conditions.	They are not limited in their practice, but most patients they see are experiencing problems with their backs, necks, joints, or feet.	They may also recommend mobility assistive devices or orthotics and may perform the fittings for those items.
+      	</div><!--END panel-body -->
+    	</div><!--END A2-->
+		</div><!-- End Q&A #2 -->
+
+		<!--=========-->
+		<!--  Q&A #3 -->
+		<!--=========--> 
+
+		<div class="panel panel-default">
+			<!--Q3-->
+			<div class="panel-heading" role="tab" id="headingThree">
+				<h4 class="panel-title">
+        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Can I bring my kids?
+        	</a>
+      	</h4>
+      </div><!--END Q3-->
+
+  		<!--A3-->
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+        If your child is a patient, we will focus on making them comfortable and help them understand what they need to do to get better. If you have an appointment, please remember that as much as we love children, we don't have suitable space or supervision available for your children while you have your appointment. Most visits last at least 45 minutes and that can be a very long time for children to wait. It's best for the child and patient if childcare is arranged somewhere else during the physical therapy visit.
+        </div><!--END panel-body-->
+       </div><!--END A3-->
+    </div><!--END Q&A #3-->
+
+    <!--=========-->
+    <!--  Q&A #4 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q4-->
+			<div class="panel-heading" role="tab" id="headingFour">
+      	<h4 class="panel-title">
+        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         	Will treatment hurt?
+        	</a>
+      	</h4>
+      </div><!--END Q4-->
+
+      <!--A4-->
+      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+        That is an excellent question for your physical therapist. Ask for an explanation of the treatment options and what you can expect. Your physical therapist is here to customize a treatment plan for you and will help you deal with any pain that may occur in your recovery process. Their goal is to restore your function and get rid of your pain.
+        </div><!--END panel-body-->
+      </div><!--END A4-->
+    </div><!--END Q&A #4-->
+
+    <!--=========-->
+    <!--  Q&A #5 -->
+    <!--=========-->
+    <div class="panel panel-default">
+      <!--Q5-->
+      <div class="panel-heading" role="tab" id="headingFive">
+      	<h4 class="panel-title">
+        	<a class="collapsed" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         	What do I wear for my appointment?
+        	</a>
+      	</h4>
+    	</div><!--END Q5-->
+
+      <!--A5-->
+ 			<div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+      	<div class="panel-body">
+        Wear loose, comfortable clothing, especially if you will be in the exercise area. We do have hospital gowns available if you need them for evaluations, such as knee injuries. You can also bring clothes to change into since we have private rooms available.
+        </div><!--END panel-body-->
+      </div><!--END A5-->
+    </div><!--END Q&A #5-->
+
+  </div><!--END panel-group-->  
+  <div class="row col-sm-12" id="disclaimer">
+    <h3 class="text-center"> Disclaimer </h3>
+      <h5>
+        This information is provided as a general information resource only. You should never delay seeking medical advice, disregard medical advice, or discontinue medical treatment because of this general information. Please see your doctor or medical advice and treatment. Do not rely on this information for any diagnosis or treatment. If you have
+        any specific questions about any medical matter, you should consult your doctor or other professional healthcare provider. If you think you may be suffering from any medical condition, you should contact your healthcare provider immediately.</h5>
+  </div><!-- end disclaimer-->
+</div><!-- End container-->
+
+  <!--===================================================-->
+  <!--================     FOOTER     ===================-->
+  <!--===================================================-->
+  <!--Also loads the javascript for Bootstrap JS-->
+ <div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>

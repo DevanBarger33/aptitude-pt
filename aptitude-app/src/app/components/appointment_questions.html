@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+    <meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+ 	<meta name="description" content="We answer commonly asked questions about appointments at Aptitude Physical Therapy.">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	
+	<link rel="shortcut icon" href="images/FavIcon.jpg">
+ 	<title>Appointment FAQ</title>
+
+  <!-- CSS -->
+
+  <!-- Boostrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+  <!--Font Awesome CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!--Custom CSS -->
+  <link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+  <!--<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+  <!--===================================================-->
+  <!--================     NAVBAR     ===================-->
+  <!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div>
+
+
+  <!--===================================================-->
+  <!--================     BODYBOX     ==================-->
+  <!--===================================================-->
+<div class="container">
+		<div class="row col-12">
+        <!-- Visible on small devices only.-->
+        <div class="well well-small visible-sm">
+          <a href="tel:417-890-7787" class="btn btn-large btn-block btn-default"><i class = "fa fa-phone fa-lg"></i><span class="glyphicon glypicon-phone"> Give us a call!</span></a>
+        </div><!-- end well-small -->
+    </div><!-- end row, col-12-->
+
+<!--====================================-->
+<!--       APPOINTMENT QUESTIONS        --> 
+<!--====================================-->		
+	<h1>Appointment Questions</h1>
+
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">	
+  			
+		<!--=========-->
+		<!--  Q&A #1 -->
+		<!--=========-->
+
+		<div class="panel panel-default">
+			<!--Q1 -->
+   			<div class="panel-heading" role="tab" id="headingOne">
+      			<h4 class="panel-title">
+        			<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         			Can I choose my physical therapist or does my doctor choose one?
+        			</a>
+      			</h4>
+    		</div><!--END Q1-->
+
+			<!--A1-->
+			<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+      			<div class="panel-body">
+        		<h5>Your doctor may refer you to our outpatient clinic, but you are allowed to choose your physical therapist.	Missouri state law requires a doctor's orders for physical therapy, and many insurance providers require a referral.	Ask us if you need more information about obtaining a referral.</h5>
+      			</div><!--END panel-body -->
+			</div><!--END A1-->
+		</div><!-- End Q&A #1 -->
+		
+		<!--=========-->
+		<!--  Q&A #2 -->
+		<!--=========-->
+
+		<div class="panel panel-default">
+			<!--Q2-->
+			<div class="panel-heading" role="tab" id="headingTwo">
+				<h4 class="panel-title">
+        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         			How long will the appointment last, and what will the PT do?
+        			</a>
+      			</h4>
+ 			</div><!--END Q2-->
+
+  		<!--A2-->
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+        <h5>The average appointment time is 45 minutes. Initial evaluations are usually longer because more time is needed for questions and answers. After that evaluation, your physical therapist will explain the treatment plan and what to expect at future visits.</h5>
+        </div><!--END panel-body -->
+      </div><!--END A2-->
+    </div><!-- End Q&A #2 -->
+
+    <!--=========-->
+    <!--  Q&A #3 -->
+    <!--=========--> 
+
+    <div class="panel panel-default">
+      <!--Q3-->
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          How can I make an appointment?
+          </a>
+        </h4>
+      </div><!--END Q3-->
+
+      <!--A3-->
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+          <h5>Please call our office at (417) 890-7787. You may also email at
+            <a href="mailto:%20jseely@aptitudept.com.">info@aptitudept.com.</a>
+           </h5>
+        </div><!--END panel-body-->
+      </div><!--END A3-->
+    </div><!--END Q&A #3-->
+
+    <!--=========-->
+    <!--  Q&A #4 -->
+    <!--=========-->
+
+      <div class="panel panel-default">
+        <!--Q4-->
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              How do I find your office?
+            </a>
+          </h4>
+        </div><!--END Q4-->
+
+        <!--A4-->
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+            <h5>Our office is located at 1342 East Primrose Street between National
+              and Fremont in Springfield, Missouri. The easiest way to enter our
+              parking lot is coming from the west to turn right because there is an
+              island on Primrose at our entrance that prevents a left turn coming
+              from the east. See our <a href="map.html">map</a>. Look for the Suite A
+              sign. Our office is located on the same level as the main entrance of
+              the building.
+           </h5>
+          </div><!--END panel-body-->
+        </div><!--END A4-->
+      </div><!--END Q&A #4-->
+
+    <!--=========-->
+    <!--  Q&A #5 -->
+    <!--=========-->
+
+    <div class="panel panel-default">
+      <!--Q5-->
+      <div class="panel-heading" role="tab" id="headingFive">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              What if I have other questions?
+            </a>
+          </h4>
+        </div><!--END Q5-->
+
+        <!--A5-->
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+          <div class="panel-body">
+            <h5>Please call us at (417) 890-7787 or email us at
+              <a href="mailto:%20info@aptitudept.com">info@aptitudept.com</a>
+              with any questions you may have. <a href="contact.html">Contact us</a>
+              to make an appointment.
+            </h5>
+          </div><!--END panel-body-->
+        </div><!--END A5-->
+      </div><!--END Q&A #5-->
+
+  </div><!--END panel group-->  
+   
+  <div class="col-12">
+    <p><a href="testimonials.html"><i class="fa fa-comment"></i> Read</a> what people are saying about Aptitude Physical Therapy, LLC.</p>
+  </div><!--end col-12 -->
+  
+
+
+  <div class="row col-sm-12" id="disclaimer">
+    <h3 class="text-center"> Disclaimer </h3>
+      <h5>
+        This information is provided as a general information resource only. You should never delay seeking medical advice, disregard medical advice, or discontinue medical treatment because of this general information. Please see your doctor or medical advice and treatment. Do not rely on this information for any diagnosis or treatment. If you have
+        any specific questions about any medical matter, you should consult your doctor or other professional healthcare provider. If you think you may be suffering from any medical condition, you should contact your healthcare provider immediately.</h5>
+  </div><!-- end disclaimer-->
+</div><!-- end container-->
+  <!--===================================================-->
+  <!--================     FOOTER     ===================-->
+  <!--===================================================-->
+  <!--Also loads the javascript for Bootstrap JS-->
+	<div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>

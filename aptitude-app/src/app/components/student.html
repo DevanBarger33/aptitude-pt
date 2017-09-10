@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html lang="en" ng-app="APTApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="physical therapy, Springfield, MO, Aptitude Physical Therapy, PT">
+	<meta name="description" content="High school, college, and PT students may apply for shadowing 
+	positions at Aptitude Physical Therapy. If interested, find the appropriate forms to fill out here.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="images/FavIcon.jpg">
+	<title>Students at APT</title>
+
+	<!-- CSS -->
+
+	<!-- Boostrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Font Awesome CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!--Custom CSS -->
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<!--<link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
+	<link href="print.css" media="print" rel="stylesheet" type="text/css"/>-->
+</head>
+
+<body>
+	<!--===================================================-->
+	<!--================     NAVBAR     ===================-->
+	<!--===================================================-->
+	<div ng-controller="aptController">
+		<div  ng-include="header"></div>
+	</div>
+
+	<!--===================================================-->
+	<!--================     BODYBOX     ==================-->
+	<!--===================================================-->
+	<div class="container">
+		<h1>Student Information & Forms </h1>
+		<div class="col-sm-6">
+			<h2>HS/Undergrad Student Information</h2>
+				<p>Limited slots are available to undergraduate and high school students during summer 
+				office hours for shadowing. Students must contact the Aptitude Physical Therapy Office 
+				Manager to set up shadowing hours and fill out necessary paperwork. Students should 
+				have a working knowledge of HIPAA requirements. CPR/AED certification is recommended  
+				before working with patients in any setting. Professional conduct is expected from 
+				students at all times. Students are expected to show up on time in professional attire. 
+				If a student is unable to attend a scheduled clinical affiliation, the student is 
+				expected to contact the Office Manager at 417-890-7787.</p>
+
+			<h2> Student Forms and Materials </h2>
+		     	<ul class = "fa-ul">
+		     		<li><i class="fa fa-print"></i> Print and complete <a href="acrobat/shadowform.pdf" title="APT Shadowing Form" target="_blank">Shadowing Form</a>.</li>
+			     	<li><i class="fa fa-heartbeat"></i> See <a href="http://www.hhs.gov/ocr/privacy/hipaa/understanding/training/index.html"target="_blank"> HHS HIPAA Training</a>.</li>
+		     	</ul>
+		</div><!--end col-sm-6-->
+
+		<div class="col-sm-6">
+				 <h2>PT Student Information</h2>
+			        <p>PT students must contact the Aptitude Physical Therapy Office Manager before their 
+			        clinical affiliation to verify hours. PT students are responsible for completing all 
+			        necessary documents. Professional conduct is expected from students at all times. 
+			        Students are expected to show up on time in professional attire. If a student is unable 
+			        to attend a scheduled clinical affiliation, the student is expected to contact the 
+			        Office Manager at 417-890-7787.</p>
+			    <div class="col-sm-6">
+			    	<a type="button" class="btn btn-default" href="contact.html"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> &nbsp; Directions to APT</a>
+				</div>
+				<div class="col-sm-6">
+			    	<a type="button" class="btn btn-info" href="contact.html"><i class="fa fa-phone fa-2x"></i> &nbsp; Contact Info</a>
+			    </div>
+
+		</div><!--End col-sm-6-->
+	</div> <!--End container-->
+
+	<!--===================================================-->
+	<!--================     FOOTER     ===================-->
+	<!--===================================================-->
+	<!--Also loads the javascript for Bootstrap JS-->
+	<<div ng-controller="aptController">
+		<div  ng-include="footer"></div>
+	</div>
+</body>
+<script src="http://code.angularjs.org/1.6.2/angular.js"></script>
+<script src="js/APTApp.js"></script>
+</html>

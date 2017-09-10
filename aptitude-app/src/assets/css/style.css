@@ -1,0 +1,389 @@
+/*
+APT Custom CSS
+====================
+APTBlue: #191970
+White-Gray: #e8e8e8
+DarkER gray: #c0c0c0;
+=====================
+*/
+
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=53+0u0ktfk5kZryqbolzWfDKWah */
+
+/* Feel free to copy&paste color codes to your application */
+
+
+/* As hex codes */
+
+.color-primary-0 { color: #3F51B5; background-color: #3F51B5} 
+.color-primary-1 { color: #3949AB; background-color: #3949AB}
+.color-primary-2 { color: #303F9F; background-color: #303F9F}
+.color-primary-3 { color: #283593; background-color: #283593}/* Main Primary color */
+.color-primary-4 { color: #1A237E; background-color: #1A237E}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.employeebio{
+  float: left;
+}
+
+.employeebio img{
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+.panel .panel-default{
+   padding: 50px;
+}
+/*END Panel CSS */
+
+#faqbuttons{
+  margin-top: 25px;
+}
+#faqbuttons a{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#homequote{
+  margin: 7px;
+  margin-top: 50px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+a:hover{
+   color: #fff;
+}
+
+.footerNav{
+   color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+h1 + p{
+/*The paragraph after an h1 */
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 25px;  
+}
+
+#homequote p{
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.staffheader{
+  text-align: left;
+}
+
+/* --------------------------------------
+                NAVBAR
+   -------------------------------------- */ 
+
+.dropdown-menu>li>a:hover{
+  background-color: #fff;
+ }
+
+.material-icons{
+	position: fixed;
+    color: #fff;
+    font-size: 40px;
+    left: 100px;
+    top: 10px;
+}
+
+.navbar {
+  /* background-color: #283593; */
+  height: 64px; 
+  /* box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28); */
+  box-shadow: 0 2px 5px rgba(0,0,0,.26)
+ }
+ 
+ .nvabar-nav ul{
+ 	height: 64px; 
+ }
+ 
+
+.navLogo img {
+  padding-top: 7px;
+  padding-left: 7px;
+  margin-left: 75px;
+  display: inline-block;
+  float: left;
+  width: 190px;
+  height: 40px;
+}
+
+.navbar-nav>li>a {
+  color: rgba(255,255,255,.87);
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+   border-bottom-color: #FFF; 
+   height: inherit; 
+}
+
+ #current {
+ 	color: #FFF;
+    border-bottom: thick solid #FFF;
+ }
+ 
+.navbar-nav>li>a:hover {
+  color: #FFF;
+ 
+}
+
+.navbar-nav li {
+   padding-left: 18px;
+   padding-right: 18px;
+   height: 57px; 
+   display: inline-block; 
+   text-align: center; 
+   margin-top: 7px; 
+   
+}
+
+.navbar-nav li:hover {
+   /*background-color: #cdcdcd;*/
+   color: #fff; 
+}
+
+#navContainer{
+	height: 64px; 
+}
+
+.container-fullwidth {
+   margin: 0px;
+   margin-top: 100px;
+   padding: 0px;
+}
+
+.collapse {
+   display: none;
+}
+
+.dropdown-menu{
+   padding: 10px;
+ } 
+
+.dropdown-menu li {
+     font-size: 14px;
+     margin-left: 0px;
+ }
+
+.dropdown-menu li:hover {
+    background-color: #ffffff;
+}
+
+.form-control{
+	width: 25%;
+	margin-top: 7px;
+}
+
+.full-width {
+  width: 100%;
+  /* background: #191970; */
+  padding: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.full-width h2{
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.full-width div h4{
+   line-height: 150%;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
+
+/* --------------------------------------
+   Body
+   -------------------------------------- */
+body{
+  font-size: 16px;
+}
+
+#main{
+	margin-top: 100px; 
+}
+
+.logo {
+  /* margin-left: 30%;*/
+  width: 50%;
+  height: 50%;
+}
+
+
+.container-fluid {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   background-color: #191970; 
+}
+
+
+.otherLinks {
+   padding-top: 200px;
+   padding-bottom: 150px;
+}
+
+#weListen{
+   color: white;
+}
+
+#weListen h1, #weSolve h1, #weTeach h1{
+
+  text-align: center;
+}
+
+#weSolve{
+   color: white;
+}
+
+#weTeach{
+   color: white;
+}
+
+#quote p {
+   text-align: right;
+}
+
+/* --------------------------------------
+   Staff Page BODY
+   -------------------------------------- */
+
+footer {
+    margin-top: 100px;
+}
+
+/* --------------------------------------
+   Staff Page BODY
+   -------------------------------------- */
+
+.thumbnail {
+   width: 450px;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+.followus{
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+a:hover{
+   color: #fff;
+}
+
+.btn{
+   background-color: #191970;
+   color: white;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #333333;
+}
+
+.btn-default{
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.btn-info{
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #5bc0de;
+    border: #46b8da;
+}
+
+.tabbable img.thumbnail{
+   margin: 0 20px 10px 0;
+}
+
+.well{
+  background-color: #ffffff;
+  /* border: none; */
+  margin-top: 15px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  .call-to-action{
+    margin-top: 5px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	.employeebio{
+    width: 95%;
+  }
+
+  .employeebio img{
+    width: 95%;
+    height: 95%;
+  }
+
+  .nav-collapse{
+    /*Because the logo is 40px high, we need to push
+    down the menu so many pixels for mobile. */
+    margin-top: 50px;
+  }
+
+
+  .navbar-responsive-collapse ul li{
+    text-align: center;
+  }
+
+  .navLogo img {
+    display: inline-block;
+    margin-left: 7px;
+  }
+  .staffheader h2{
+    text-align: center;
+  }
+
+}/*END @media (max-width: 768px) */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
