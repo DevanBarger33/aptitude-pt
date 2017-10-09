@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http'; 
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -34,9 +34,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     BrowserModule,
     FormsModule, 
     AppRoutingModule, 
-    HttpClientModule
+    HttpModule
   ],
-  providers: [],
+  providers: [AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
