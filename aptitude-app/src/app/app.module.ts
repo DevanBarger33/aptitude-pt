@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -10,10 +11,12 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { PatientComponent } from './components/patient/patient.component';
 import { ServicesComponent } from './components/services/services.component';  
+import { BlogComponent } from './components/blog/blog.component';
 
 /* Shared Components */
 import { NavbarComponent } from './shared/navbar/navbar.component'; 
 import { FooterComponent } from './shared/footer/footer.component';
+
 
 
 @NgModule({
@@ -24,12 +27,14 @@ import { FooterComponent } from './shared/footer/footer.component';
     FooterComponent, 
     AboutComponent, 
     PatientComponent, 
-    ServicesComponent
+    ServicesComponent, 
+    BlogComponent
   ],
   imports: [
     BrowserModule,
     FormsModule, 
-    AppRoutingModule
+    AppRoutingModule, 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
