@@ -1,3 +1,5 @@
-<p>
-  blog works!
-</p>
+<div class="container blog-content">
+	<ng-container *ngFor="let blog of data.items">
+		<div [innerHTML]="blog.content" class="container card-2"></div>
+	</ng-container>
+</div>
