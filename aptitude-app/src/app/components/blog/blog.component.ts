@@ -7,10 +7,12 @@ import 'rxjs/add/operator/map';
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.css']
 })
+
 export class BlogComponent{
 
 	title = 'Aptitude Physical Therapy';
-	private apiURL = 'https://www.googleapis.com/blogger/v3/blogs/7109502014540023393/posts?key=AIzaSyBv2u0GFvVkYJyDAcsbHF2QQP8fPM333Zs';
+	
+	private apiURL = 'https://www.googleapis.com/blogger/v3/blogs/7109502014540023393/posts?key=AIzaSyBv2u0GFvVkYJyDAcsbHF2QQP8fPM333Zs&fields=items/published,items/url,items/title,items/content,items/author/displayName,items/labels';
 	data: any = {}; 
 
 	constructor(private http: Http) {

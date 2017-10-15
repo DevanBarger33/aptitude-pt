@@ -1,5 +1,9 @@
 <div class="container blog-content">
 	<ng-container *ngFor="let blog of data.items">
-		<div [innerHTML]="blog.content" class="container card-2"></div>
+		<div class="container card-2">
+			<div><h2>{{blog.title}}</h2></div>
+			<div><h3>{{blog.published | date}}</h3></div>
+			<div [innerHTML]="blog.content"></div>
+		</div>
 	</ng-container>
 </div>
