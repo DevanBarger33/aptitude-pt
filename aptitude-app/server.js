@@ -8,9 +8,6 @@ app.use(express.static(__dirname + '/dist'));
 // Heroku port
 app.listen(process.env.PORT || 8080);
 
-const express = require('express');
-const app = express();
-
 const path = require('path');
 // ...
 // For all GET requests, send back index.html
