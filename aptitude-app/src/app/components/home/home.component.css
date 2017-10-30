@@ -1,3 +1,35 @@
-h1 {
-	padding-top: 100px; 
+.contact-background {
+	width: 100%;
+	min-height: 400px;  
+	opacity: .85; 
+	position: absolute; 
+	border-radius: 10px; 
+}
+.container-fluid {
+   padding: 0px;
+}
+
+.btn-light {
+	background-color: white;
+}
+
+.btn-primary {
+	background-color: #191970; 
+	border-color: #191970;
+}
+
+#schedule-header {
+	color: black;
+	text-align: center; 
+}
+
+#schedule-content {
+	color: black;
+	text-align: center;  
+}
+
+.contact-content {
+	margin-top: 100px; 
+	padding-top: 200px; 
+	padding-bottom: 500px; 
 }
