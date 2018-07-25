@@ -33,3 +33,7 @@
 	padding-top: 200px; 
 	padding-bottom: 500px; 
 }
+
+.quotes > .row {
+	margin-bottom: 100px;
+}

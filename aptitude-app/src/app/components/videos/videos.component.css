@@ -1,0 +1,18 @@
+.row {
+    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+}
+
+img {
+    width: 100%;
+}
+
+.videos-banner {
+    margin: none;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: #191970;
+    color: white;
+}
+
+  

@@ -12,6 +12,10 @@
   margin-top: 100px;
   margin-bottom: 100px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 .card-3 {
@@ -49,6 +53,37 @@
     color: #424242; 
 }
 
-
+@keyframes fadein {
+	from {
+			opacity:0;
+	}
+	to {
+			opacity:1;
+	}
+}
+@-moz-keyframes fadein { /* Firefox */
+	from {
+			opacity:0;
+	}
+	to {
+			opacity:1;
+	}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+	from {
+			opacity:0;
+	}
+	to {
+			opacity:1;
+	}
+}
+@-o-keyframes fadein { /* Opera */
+	from {
+			opacity:0;
+	}
+	to {
+			opacity: 1;
+	}
+}
 
 

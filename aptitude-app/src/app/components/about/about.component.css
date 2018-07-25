@@ -58,4 +58,9 @@
     margin-bottom: 100px;
   }
   
-  
+  .about-banner {
+    padding-top: 250px; 
+    padding-bottom: 200px;
+    background-color: #191970;
+    color: white;
+  }
